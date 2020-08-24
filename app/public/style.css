@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+article {
+    background-color: thistle;
+    text-justify: newspaper;
+    border-radius: 10px;
+    border: coral;
+}
+
+li {
+    display: flex;
+}
+div:first-child {
+    color: rgb(155, 55, 180);
+}
