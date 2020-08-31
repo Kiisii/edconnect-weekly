@@ -1,0 +1,334 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav {
+    background-color: #107ADD;
+    border: 0.5px solid #107ADD;
+    border-radius: 6px;
+}
+
+.leftnav1 {
+    color: #e6dfdfcc;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.leftnav2 {
+    color: #e6dfdfcc;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.rightnav {
+    float: right;
+    padding: 5px;
+    color: #e6dfdfcc;
+    margin-right: 6px;
+    margin-top: -3px;
+    text-decoration: none;
+}
+
+.project-container {
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 23%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E1E2E3;
+}
+
+.author {
+    color: grey;
+}
+
+.tag {
+    color: cornflowerblue;
+}
+
+h3 {
+    color: #0073B5;
+}
+
+#label {
+    color: white;
+    text-decoration: none;
+}
+
+#welcome {
+    background-color: #E1E2E3;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 80px;
+    margin: 13px auto -40px auto;
+    display: flexbox;
+}
+
+#started {
+    background-color: #0073B5;
+    color: white;
+    border-radius: 5px;
+    border-color: #0073B5;
+    border-style: solid;
+    border-width: 1px;
+    padding: 9px;
+}
+
+.starts {
+    background-color: #0073B5;
+    color: white;
+    border-radius: 5px;
+    border-color: #0073B5;
+    border-style: solid;
+    border-width: 1px;
+    padding: 9px;
+}
+
+#login {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px;
+}
+
+#search {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
+
+#go {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px;
+}
+
+#bottom-right {
+    background-color: #f0f1f3;
+    width: 80%;
+    float: right;
+    margin-right: 10%;
+    border: 0.5px solid #f0f1f3;
+    border-radius: 6px;
+}
+
+#bottom-text {
+    text-align: right;
+    color: #b6b6b6;
+}
+
+#edconnect {
+    color: black;
+    margin-right: 15px;
+}
+
+#login-body {
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    margin: 13px 40px 0px auto;
+    display: flexbox;
+}
+
+#email {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f0f1f3;
+    padding: 5px;
+    width: 40%;
+}
+
+#test-name {
+    color: black;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+#topbar {
+    max-width: 1100px;
+    background-color: #ececec;
+    margin: 10px auto 0px auto;
+    padding: 5px 30px;
+    display: flex;
+    border-radius: 7px;
+}
+
+.viewbar {
+    max-width: 1100px;
+    background-color: #ececec;
+    margin: 10px auto 0px auto;
+    padding: 5px 30px;
+    display: flex;
+    border-radius: 7px;
+}
+
+#id {
+    margin-top: 15px;
+    height: 40px;
+}
+
+.top {
+    margin-left: 83px;
+}
+/*register*/
+.topbar-content {
+    flex: 1;
+}
+
+.tab {
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    padding: 7px;
+    width: 60%;
+    margin-top: 5px;
+}
+
+.profile-content {
+    display: flex;
+    margin: 20px auto 0px auto;
+    padding: 10px 30px;
+}
+
+.profile-row1, .profile-row2 {
+    flex: 2;
+    margin-right: -20px;
+}
+
+.profile-row1 {
+    margin-left: 150px;
+}
+
+.profile-row2 {
+    margin-left: -200px;
+}
+
+.smalltab {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    padding: 7px;
+    width: 20%;
+    margin-top: 5px;
+}
+
+.register-page {
+    margin-left: 180px;
+}
+
+.grad {
+    margin-left: 190px;
+    margin-top: -72px;
+}
+
+#change-password {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 10px auto 0px auto;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+.tab2 {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    padding: 7px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.pass {
+    margin: 20px auto 0px auto;
+}
+
+#search-page-nav {
+    border-radius: 5px;
+    border: 1px solid #E1E2E3;
+    padding: 9px;
+    width: 500px;
+}
+
+#search-page {
+    background-color: #f4f5f7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 63%;
+    padding: 13px;
+    margin: auto 0 auto 200px;
+}
+
+#submit-proj {
+    margin-left: 450px;
+    margin-top: 60px;
+}
+
+.edit {
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+#edit1, .edit2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+#project-files {
+    background-color: #ececec;
+    padding: 13px;
+    border: 1px solid #d8d8d8;
+    margin-top: 28px;
+    margin-bottom: 9px;
+}
+
+.click {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    padding: 0px;
+    margin: 2px -1px -1px 0px;
+    width: 100%;
+    height: 26px;
+}
+
+#no-file {
+    border: 1px solid #d8d8d8;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    height: 36px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#browse {
+    background-color: #ececec;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    margin-top: 2px;
+    padding: 9px;
+}
+
+#line1 {
+    display: flex;
+    align-items: stretch;
+}

@@ -3,47 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Profile</title>
-    <style>
-        body {
-            margin-left: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Project Explorer</h1>
-    <h2>One Stop Database for Final Year Projects</h2>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;<a href="">Projects</a>&nbsp;<a href="login.html">Login</a>&nbsp;<a href="register.html">Register</a>
-    <h3>Ade Bolade</h3>
-    <p>test@edconnect.ng</p>
-    <ul>
-        <li>Program: Computer Science</li>
-        <li>Matriculation: 00/0000</li>
-        <li>Graduation Year: 2019</li>
-    </ul>
-    <h3>Update Profile</h3>
-    <p>First name:<br /><input type="text" /></p>
-    <p>Last name:<br /><input type="text" /></p>
-    <p>Email Address:<br /><input type="text /"></p>
-    <p>Matric Number:<br /><input type="text" /></p>
-    <p>Program:<br /><select name = "Program">
-        <option value = "Computer Science" selected>Computer Science</option>
-        <option value = "Public Health">Public Health</option>
-        <option value = "Anatomy">Anatomy</option>
-     </select>
-    </p>
-     <p>Graduation Year:<br /><select name = "Graduation Year">
-        <option value = "2020" selected>2020</option>
-        <option value = "2019">2019</option>
-        <option value = "2018">2018</option>
-        <option value = "2017">2017</option>
-        <option value = "2016">2016</option>
-     </select>
-    </p>
-    <input type="submit" />
-    <h3>Change Password</h3>
-    <p>Current Password:<br /><input type="text" /></p>
-    <p>New Password:<br /><input type="password" /></p>
-    <p>Confirm Password:<br /><input type="password" /></p>
-    <input type="submit" />
+    <nav id="nav"><p><a href="index.html" id="label">&nbsp;&nbsp;&nbsp;Project Explorer</a>&nbsp;&nbsp;<input type="text" placeholder="Search Projects" id="search" />&nbsp;&nbsp;<input type="button" value="Search" id="go" /><a href="" class="leftnav1">Projects</a><a href="" class="leftnav2">Submit</a><a href="login.html" class="rightnav">Logout</a> <a href="profile.html" class="rightnav">Signed in as: <span style="color: white;">Ade Ade</span></a></p></nav>
+    <p class="top"><span id="test-name"><b>Ade Ade</b> </span><span style="color: gray;">test@edconnect.ng</span></p>
+    <div id="topbar">
+      <div class="topbar-content">
+        <p>Program<br />Computer Science</p>
+      </div>
+      <div class="topbar-content">
+        <p>Matriculation number<br />00/0000</p>
+      </div>
+      <div class="topbar-content">
+        <p>Graduation Year<br />2019</p>
+      </div>
+    </div>
+    <br />
+    <h4 class="top" style="text-transform: capitalize; font-size: 20px;">Update Profile</h4>
+    <hr class="top" color="#eeeff0" style="margin-top: -12px;"/>
+    <div class="profile-content">
+      <div class="profile-row1">
+        <p>First name<br /><input class="tab" type="text" value="Ade" /></p>
+        <p>Email<br /><input class="tab" type="text" value="test@edconnect.ng" /></p>
+        <p>Matriculation number<br /><input class="tab" type="text" value="00/0000" /></p>
+      </div>
+      <div class="profile-row2">
+        <p>Last name<br /><input class="tab" type="text" value="Ade" /></p>
+        <p>Program<br /><select name = "Program" class="tab">
+          <option value = "Computer Science" selected>Computer Science</option>
+          <option value = "Public Health">Public Health</option>
+          <option value = "Anatomy">Anatomy</option>
+          </select>
+        </p>
+          <p>Graduation Year<br /><select name = "Graduation Year" class="tab">
+            <option value = "2020">2020</option>
+            <option value = "2019" selected>2019</option>
+            <option value = "2018">2018</option>
+            </select>
+          </p>
+        </div>
+    </div>
+    <a href="index.html"><input type="button" value="Update Profile" id="started" class="register-page" /></a>
+    <br /> <br />
+    <h4 class="top" style="text-transform: capitalize; font-size: 20px;">Change Password</h4>
+    <hr class="top" color="#eeeff0" style="margin-top: -12px;"/>
+    <div id="change-password">
+      <div class="pass">
+        <p>Current password<br /><input class="tab2" type="text" placeholder="Current password" /></p>
+      </div>
+      <div class="pass">
+        <p>New password<br /><input class="tab2" type="text" placeholder="Your new password" /></p>
+      </div>
+      <div class="pass">
+        <p>Confirm password<br /><input class="tab2" type="text" placeholder="Confirm new password" /></p>
+      </div>
+    </div>
+    <a href="profile.html"><input type="button" value="Change Password" class="register-page" style="background-color: #0073B5; color: white; border-radius: 5px; border-color: #0073B5; border-style: solid; border-width: 1px; padding: 9px; margin-left: 190px;" /></a>
+    <br /> <br /> <br /> <br />
+    <div id="bottom-right">
+      <p id="bottom-text">Project Explorer &copy; 2020 .<span id="edconnect"> Edconnect</span></p>
+    </div>
   </body>
 </html>

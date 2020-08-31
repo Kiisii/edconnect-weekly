@@ -3,35 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Project Explorer</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
     <body>
-    <h1>Project Explorer</h1>
-    <h2>One Stop Database for Final Year Projects</h2>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;<a href="">Projects</a>&nbsp;<a href="login.html">Login</a>&nbsp;<a href="register.html">Register</a>
-    <h2>Welcome to Project Explorer</h2>
-    <p>Project Explorer is a repository for final year projects across all departments at your institution. You can upload and search projects and learn from others.</p>
-    <h2>Project List</h2>
-    <h3>Project 1</h3>
-    <ul>
-        <li>Name: Project 1</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-        <li>Program: Computer Science</li>
-        <li>Year: 2019</li>
-    </ul>
+<!--    <nav><p id="label"><a href="index.html">Project Explorer</a></p><input type="text" value="Search Projects"><button>Search</button></nav> -->
+    <nav id="nav"><p><a href="index.html" id="label">&nbsp;&nbsp;&nbsp;Project Explorer</a>&nbsp;&nbsp;<input type="text" placeholder="Search Projects" id="search" />&nbsp;&nbsp;<input type="button" value="Search" id="go" /><a href="" class="leftnav1">Projects</a><a href="" class="leftnav2">Submit</a><a href="login.html" class="rightnav">Login</a> <a href="register.html" class="rightnav">Sign up</a></p></nav>
+    <div id="welcome">
+    <h1>Welcome to Project Explorer</h1>
+    <p>Project Explorer is a repository for final year projects across all departments at your institution. You can submit your project and search projects submitted by others to learn from.</p>
+    <br />
+    <a href="register.html"><input type="button" value="Get Started" id="started"/></a>&nbsp;<a href="login.html"><input type="button" value="Login" id="login" /></a>
+    </div>
+    <div class="project-container">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p class="author">Henry James, Bola Ade</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="tag">#yaml,   #ejs</p>
+      </div>
 
-    <h3>Project 2</h3>
-    <ul>
-        <li>Name: Project 2</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-        <li>Program: Public Health</li>
-        <li>Year: 2015</li>
-    </ul>
-    <h3>Project 3</h3>
-    <ul>
-        <li>Name: Project 3</li>
-        <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-        <li>Program: Computer Information Systems</li>
-        <li>Year: 2020</li>
-    </ul>
-  </body>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p class="author">Ben Rice, Ade Sola</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="tag">#css,   #html</p>
+      </div>
+
+      <div class="project">
+        <h3>Project 3</h3>
+        <p class="author">Fried Lim, Tola Daniel</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="tag">#ejs,   #ci</p>
+      </div>
+
+      <div class="project">
+        <h3>Project 4</h3>
+        <p class="author">James Li, Ade Brian</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="tag">#javascript,   #mongodb</p>
+      </div>
+    </div>
+    <div id="bottom-right">
+      <p id="bottom-text">Project Explorer &copy; 2020 .<span id="edconnect"> Edconnect</span></p>
+    </div>
+      </body>
 </html>
